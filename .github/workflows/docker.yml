@@ -32,5 +32,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: |
-            ghcr.io/faddat/proto-builder:latest
+          tags: ghcr.io/faddat/proto-builder:latest
